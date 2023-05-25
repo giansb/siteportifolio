@@ -1,0 +1,36 @@
+.secao-pagina-projetos{
+    background-color: rgb(57, 64, 80);
+    padding: 100px 0;
+}
+
+.pagina-projetos-boxes-projetos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+}
+
+.pp-box{
+    height: 400px;
+    width: 300px;
+    position: relative;
+    margin: 10px 0;
+    transition: 800ms;
+    bottom: 0;
+    
+}
+
+.pp-box:hover{
+    bottom: 10px;
+}
+
+@media(max-width:1000px){
+    .pp-box{
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    .pp-box:hover{
+        bottom: unset;
+    }
+}

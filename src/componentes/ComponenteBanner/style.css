@@ -1,0 +1,112 @@
+.imagem-perfil{
+    background-image: url(../../../public/assets/perfi.png);
+    width: 350px;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 200px;
+    box-shadow: 3px -3px 0px 2px black;
+}
+
+.s-banner{
+    padding: 100px 0;
+}
+
+
+
+.banner-all{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 140px 0;
+}
+
+.banner-cont {
+    font-size: 30px;
+    line-height: 15px;
+    margin-left: 60px;
+}
+
+.banner-cont p{
+    font-size: 28px;
+    color: white;
+}
+
+
+
+.tec-icons-boxes svg{
+    margin: 0 10px;
+    position: relative;
+    transition: 300ms;
+    bottom: 0;
+}
+
+
+
+.tec-icons-boxes svg:hover{
+    fill: rgb(0, 200, 255);
+    bottom: 20px;
+}
+
+.tec-icons-boxes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.tec-icon:hover{
+    color: white;
+    background-color: white;
+    
+}
+
+@media (max-width: 1060px){
+    .banner-all{
+        flex-direction: column;
+        padding: 100px 0;
+    }
+
+    .banner-cont {
+        font-size: 30px;
+        line-height: 15px;
+        margin: 40px 0 0 0 ;
+    }
+}
+
+@Media(max-width:900px){
+    .tec-icons-boxes svg:hover{
+        fill: unset;
+        bottom: 0;
+    }
+}
+
+@media(max-width: 650px){
+    .banner-cont {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .tec-icons-boxes svg{
+        margin: 0 0;
+        position: relative;
+        transition: 300ms;
+        bottom: 0;
+    }
+
+    svg{
+        width: 80px;
+        padding: 0 5px;
+        
+    }
+
+    .imagem-perfil{
+        width: 200px;
+        height: 200px;
+    }
+
+    
+}

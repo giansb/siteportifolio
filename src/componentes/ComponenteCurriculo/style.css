@@ -1,0 +1,101 @@
+.s-curriculo-cont{
+    background-color: rgb(74, 84, 105);
+    padding: 10px 20px;
+    border-radius: 10px ;
+    color: white;
+    max-width: 800px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+}
+
+.metade{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.metade-image1{
+    width: 250px;
+}
+
+.botao-curriculo{
+    background-color: white;
+    margin:20px auto;
+    width: 150px;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    border-radius: 10px;
+    transition: 400ms;
+    
+}
+
+.botao-curriculo:hover{
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+}
+
+.curriculo-texto-cont{
+    line-height: 15px;
+    text-align: left;
+    margin-left: 30px;
+    position: relative;
+    width: 100%;
+    
+}
+
+.s1{
+    text-indent:20px
+}
+
+.s2{
+    text-indent:40px
+}
+
+.pink{
+    color: #ff79c6;
+}
+
+.green{
+    color: #50fa7b;
+}
+
+.yellow{
+    color:#f1fa8c;
+}
+
+.curriculo-image2{
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+}
+
+@media(max-width:680px){
+    .s-curriculo-cont{
+        flex-direction: column;
+    }
+
+    .curriculo-image2{
+        right: 15px;
+    }
+
+    .metade{
+        margin: 20px 0;
+    }
+
+    .botao-curriculo{
+        font-size: 20px;
+        width: 200px;
+        padding: 10px;
+    }
+
+
+}
