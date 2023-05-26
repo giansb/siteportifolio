@@ -6,15 +6,24 @@
 .pagina-projetos-boxes-projetos{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content:flex-start ;
+    width: 940px;
+    margin: 0 auto;
+    width: 95 0px;
     
+    gap: 20px;
 }
+
+.pagina-projeto-center{
+}
+
+
 
 .pp-box{
     height: 400px;
     width: 300px;
     position: relative;
-    margin: 10px 0;
+
     transition: 800ms;
     bottom: 0;
     
@@ -32,5 +41,11 @@
 
     .pp-box:hover{
         bottom: unset;
+    }
+
+    .pagina-projetos-boxes-projetos{
+        justify-content: center;
+        width: auto;
+        
     }
 }

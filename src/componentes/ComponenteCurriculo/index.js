@@ -31,6 +31,7 @@ export default function ComponenteCurriculo(){
                                 <p>&lt;/<span className="pink">div</span>&gt;</p>
                                 <img className="curriculo-image2" src=".\assets\imagem2.png"></img>
                         </div>
+                        
                             
                     </div>
                 </div>

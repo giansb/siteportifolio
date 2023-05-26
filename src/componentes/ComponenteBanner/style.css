@@ -108,5 +108,10 @@
         height: 200px;
     }
 
+    .banner-all{
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
     
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import './style.css'
 import ComponenteCard from "../ComponenteCard";
+import { HashLink } from "react-router-hash-link";
 
 
 export default function ComponenteProjetos(){
@@ -16,14 +17,15 @@ export default function ComponenteProjetos(){
                     <div className="projeto-box p-box"><ComponenteCard cab="projeto de estudo" titulo="Clínica Médica" desc="Site de uma clínica médica, feito em React.js" fundo="./assets/projetos_tumb/projeto6.png" sitelink="https://giansb.github.io/SiteClinica/" replink="https://github.com/giansb/SiteClinica"/></div>
                     <div className="projeto-box p-box" ><ComponenteCard cab='Projeto de estudo' titulo='Agência de viagens' desc='Página de uma Agência de viagens, nesse projeto foi colocado em pratica a criação de formularios em html.' fundo='./assets/projetos_tumb/projeto3.png' sitelink='https://giansb.github.io/SiteAgenciaDeViagens/' replink='https://github.com/giansb/SiteAgenciaDeViagens'/></div>
                     <div className="projeto-box more">
-                        <a className="more-link" href='/projetos'>
+                        
+                        <HashLink className="more-link" to="/projetos">
                         <div className="more-cont">
                             <p className="more-text">Mais<br></br> projetos</p>
                             <p className="more-row">&rarr;</p>
                             <div className="more-cont-borda"></div>
                         </div>
-                        </a>
-                        <a link href="#sobre"><div className="more-points">...</div></a>
+                        </HashLink>
+                        <div className="more-points">...</div>
                     </div>
                 </div>
             </div>
