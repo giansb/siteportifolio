@@ -18,7 +18,7 @@ export default function ComponenteProjetos(){
                     <div className="projeto-box p-box" ><ComponenteCard cab='Projeto de estudo' titulo='Agência de viagens' desc='Página de uma Agência de viagens, nesse projeto foi colocado em pratica a criação de formularios em html.' fundo='./assets/projetos_tumb/projeto3.png' sitelink='https://giansb.github.io/SiteAgenciaDeViagens/' replink='https://github.com/giansb/SiteAgenciaDeViagens'/></div>
                     <div className="projeto-box more">
                         
-                        <HashLink className="more-link" to="/projetos">
+                        <HashLink className="more-link" to="/projetos#top">
                         <div className="more-cont">
                             <p className="more-text">Mais<br></br> projetos</p>
                             <p className="more-row">&rarr;</p>

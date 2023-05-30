@@ -1,7 +1,8 @@
 import './App.css';
-import {BrowserRouter, Routes, Route } from 'react-router-dom';
+
 import PagHome from './componentes/paginas/PagHome';
 import PagProjetos from './componentes/paginas/PagProjetos';
+import {Routes, Route } from 'react-router-dom';
 
 function App() {
   return (

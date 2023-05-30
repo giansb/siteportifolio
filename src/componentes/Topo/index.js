@@ -17,7 +17,7 @@ export default function Topo(){
                     <nav>
                         <HashLink to="/">Inicio</HashLink>
                         <HashLink to="/#curriculo" smooth>Currículo</HashLink>
-                        <HashLink to="/projetos" smooth>Projetos</HashLink>
+                        <HashLink to="/projetos#top" smooth>Projetos</HashLink>
                         <HashLink to="/#contato" smooth>Contato</HashLink>
                     </nav>
                 
