@@ -1,16 +1,25 @@
 header{
     
-    background-color: rgb(43, 48, 56);
+    background-color: var(--cor-topo);
     color: white;
     position: fixed;
     width: 100%;
-    
-    z-index: 3;
-   
+    z-index: 5;
 }
 
 .topo-espaco{
   height: 76px;
+}
+
+.secao-topo{
+  text-align: left;
+  line-height: 10px;
+  padding-top: 20px;
+  color: white;
+}
+
+.secao-topo p {
+  line-height: 30px;
 }
 
 .topo{
@@ -32,13 +41,11 @@ nav a{
     padding: 0 10px;
     color: white;
     font-size: 18px;
-    transition: 400ms;
-    
+    transition: 400ms;  
 }
 
 nav a:hover{
-    color: rgb(183, 0, 255);
-    
+    color: rgb(183, 0, 255); 
 }
 
 .topo p{
@@ -46,10 +53,7 @@ nav a:hover{
     margin: 0;
 }
 
-.azul{
-    color:rgb(35, 206, 1);
-    font-weight: bold;
-}
+
 
 .button {
     position: relative;

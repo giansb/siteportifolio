@@ -14,7 +14,7 @@
 .cab{
     width: 70%;
     height: 30px;
-    border-radius: 10px 0 50px 0 ;
+    border-radius: 15px 0 50px 0 ;
     display: none;
     text-align: start;
     padding-left: 10px;
@@ -32,7 +32,7 @@
     background-color: rgb(0, 0, 0);  
     opacity: 0.8;
     z-index: -1;
-    border-radius: 10px 0 50px 0 ;
+    border-radius: 15px 0 50px 0 ;
 }
 
 .cab p{

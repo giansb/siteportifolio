@@ -1,7 +1,8 @@
 .secao-pagina-projetos{
-    background-color: rgb(57, 64, 80);
+    background-color: var(--cor-fundo-1);
     padding: 100px 0;
 }
+
 
 .pagina-projetos-boxes-projetos{
     display: flex;
@@ -10,23 +11,30 @@
     width: 940px;
     margin: 0 auto;
     width: 95 0px;
-    
     gap: 20px;
 }
 
-.pagina-projeto-center{
+.secao-projetos{
+    background-color: var(--cor-fundo-2);
+    padding: 40px 0;
 }
-
-
 
 .pp-box{
     height: 400px;
     width: 300px;
     position: relative;
-
     transition: 800ms;
     bottom: 0;
-    
+    margin: 20px auto;
+}
+
+.espaco{
+  height: 100px;
+}
+
+.carrosel-container{
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 .pp-box:hover{
@@ -35,8 +43,8 @@
 
 @media(max-width:1000px){
     .pp-box{
-        width: 90%;
-        margin: 20px 0;
+        width: 300px;
+        margin: 20px auto;
     }
 
     .pp-box:hover{
@@ -48,4 +56,15 @@
         width: auto;
         
     }
+}
+
+@media(max-width:680px){
+  .pp-box{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    transition: 800ms;
+    bottom: 0;
+    margin: 20px auto;
+}
 }
