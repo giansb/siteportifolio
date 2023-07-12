@@ -13,6 +13,18 @@
     padding: 40px 0;
 }
 
+.banner-icon{
+    width: 32px;
+}
+
+
+.banner-icons{
+    max-width: 200px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    
+}
 
 
 .banner-all{
@@ -27,11 +39,17 @@
     font-size: 30px;
     line-height: 15px;
     margin-left: 60px;
+    text-align: left;
 }
 
 .banner-cont p{
     font-size: 28px;
     color: white;
+}
+
+.banner-cont h1{
+    font-size: 64px;
+    
 }
 
 
@@ -48,8 +66,32 @@
 
 
 .tec-icons-boxes svg:hover{
-    fill: rgb(0, 200, 255);
+    
     bottom: 20px;
+}
+
+.java:hover{
+    fill: rgb(255, 145, 0);
+}
+
+.ps:hover, .react:hover{
+    fill: rgb(0, 214, 214);
+}
+
+.git:hover{
+    fill: white;
+}
+
+.svghtml:hover{
+    fill: rgb(211, 68, 16);
+}
+
+.css:hover{
+    fill: rgb(12, 99, 230);
+}
+
+.js:hover{
+    fill: rgb(224, 224, 2);
 }
 
 .tec-icons-boxes{
@@ -84,6 +126,15 @@
         fill: unset;
         bottom: 0;
     }
+
+    .banner-cont h1{
+        font-size: 32px;
+        
+    }
+
+    .banner-cont{
+        text-align: center;
+    }
 }
 
 @media(max-width: 650px){
@@ -102,7 +153,30 @@
     svg{
         width: 80px;
         padding: 0 5px;
-        
+    }
+
+    .java{
+        fill: rgb(255, 145, 0);
+    }
+    
+    .ps, .react{
+        fill: rgb(0, 214, 214);
+    }
+    
+    .git{
+        fill: white;
+    }
+    
+    .svghtml{
+        fill: rgb(211, 68, 16);
+    }
+    
+    .css{
+        fill: rgb(12, 99, 230);
+    }
+    
+    .js{
+        fill: rgb(224, 224, 2);
     }
 
     .imagem-perfil{

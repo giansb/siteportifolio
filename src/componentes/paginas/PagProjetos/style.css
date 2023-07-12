@@ -61,7 +61,7 @@
 @media(max-width:680px){
   .pp-box{
     height: 400px;
-    width: 400px;
+    width: 90%;
     position: relative;
     transition: 800ms;
     bottom: 0;

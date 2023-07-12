@@ -20,6 +20,7 @@ export default function ComponenteSobre(){
                             </div>
                             <div className="sobre-inside-list-part">
                                 <h2 className="yellow">SENAC</h2>
+                                <p>Técnico em Desenvolvimento de Sistemas ( 2° semestre).</p>
                                 <p>Certificação: Assistente de administração de banco de dados.</p>
                             </div>
                             <div className="sobre-inside-list-part">

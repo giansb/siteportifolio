@@ -28,6 +28,31 @@ export default function ComponenteContato(){
                             <a className="link-style" link href="https://wa.me/5551981712896" target="_blank">(51) 9 8171-2896</a>
                         </div>
                     </div>
+                    <div className="contato-boxes-2">
+                    <div className="contato-box">
+                            <img src="./assets/icons/gmail.png"></img>
+                            <a className="link-style" link href="mailto:gianbraga1802@gmail.com" target="_blank">gianbraga1802@gmail.com</a>
+                        </div>
+                        <a className="contato-box-2" link href="" target="_blank">
+                            <img src="./assets/icons/gmail.png"></img>
+                            <p>gianbraga1802@gmail</p>
+                        </a>
+
+                        <a className="contato-box-2" href="https://br.linkedin.com/in/gian-carlo-braga-165a63242" target="_blank">
+                            <img src="./assets/icons/linkedin-n.png"></img>
+                            <p>/gian-carlo-braga</p>
+                        </a>
+                        
+                        <a className="contato-box-2" link href="https://github.com/giansb" target="_blank">
+                            <img src="./assets/icons/github-n.png"></img>
+                            <p>/giansb</p>
+                        </a>
+
+                        <a className="contato-box-2" link href="https://wa.me/5551981712896" target="_blank">
+                            <img src="./assets/icons/whatsapp.png"></img>
+                            <p>(51) 9 8171-2896</p>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>

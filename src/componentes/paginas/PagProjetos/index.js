@@ -50,19 +50,19 @@ export default function PagProjetos(){
                             <div className="carrosel-container">
                             <Carousel responsive={responsive}>
                             <div className="pp-box">
-                            <ComponenteCard cab='Projeto de estudo' titulo='Agência de design' desc='Pagina de uma agência de design, colocando em prática o conhecimento de variáveis de estado.' fundo="./assets/projetos_tumb/projeto1.png" sitelink="https://giansb.github.io/react-site-design/" replink="https://github.com/giansb/react-site-design"/>
+                            <ComponenteCard cab='Web React.js' titulo='Agência de design' desc='Pagina de uma agência de design, colocando em prática o conhecimento de variáveis de estado.' fundo="./assets/projetos_tumb/projeto1.png" sitelink="https://giansb.github.io/react-site-design/" replink="https://github.com/giansb/react-site-design"/>
                             </div>
                             <div className="pp-box">
-                            <ComponenteCard cab="projeto de estudo" titulo="Clínica Médica" desc="Site de uma clínica médica, feito em React.js" fundo="./assets/projetos_tumb/projeto6.png" sitelink="https://giansb.github.io/SiteClinica/" replink="https://github.com/giansb/SiteClinica"/>
+                            <ComponenteCard cab="Web React.js" titulo="Clínica Médica" desc="Site de uma clínica médica, feito em React.js" fundo="./assets/projetos_tumb/projeto6.png" sitelink="https://giansb.github.io/SiteClinica/" replink="https://github.com/giansb/SiteClinica"/>
                             </div>
                             <div className="pp-box">
-                            <ComponenteCard cab='Projeto de estudo' titulo='Agência de viagens' desc='Página de uma Agência de viagens, nesse projeto foi colocado em pratica a criação de formularios em html.' fundo='./assets/projetos_tumb/projeto3.png' sitelink='https://giansb.github.io/SiteAgenciaDeViagens/' replink='https://github.com/giansb/SiteAgenciaDeViagens'/>
+                            <ComponenteCard cab='Web React.js' titulo='Agência de viagens' desc='Página de uma Agência de viagens, nesse projeto foi colocado em pratica a criação de formularios em html.' fundo='./assets/projetos_tumb/projeto3.png' sitelink='https://giansb.github.io/SiteAgenciaDeViagens/' replink='https://github.com/giansb/SiteAgenciaDeViagens'/>
                             </div>
                             <div className="pp-box">
-                            <ComponenteCard cab="Projeto de estudo" titulo="A Biblioteca da Meia-Noite" desc="Site feito para o livro A Biblioteca da Meia-noite. Migrado para React.js" fundo="./assets/projetos_tumb/projeto4.png" sitelink="https://giansb.github.io/SitelivroABibliotecaDaMeia-noite/" replink="https://github.com/giansb/SitelivroABibliotecaDaMeia-noite"/>
+                            <ComponenteCard cab="Web React.js" titulo="A Biblioteca da Meia-Noite" desc="Site feito para o livro A Biblioteca da Meia-noite. Migrado para React.js" fundo="./assets/projetos_tumb/projeto4.png" sitelink="https://giansb.github.io/SitelivroABibliotecaDaMeia-noite/" replink="https://github.com/giansb/SitelivroABibliotecaDaMeia-noite"/>
                             </div>
                             <div className="pp-box">
-                            <ComponenteCard cab="Projeto de estudo" titulo="Ótica vida" desc="Página de uma Ótica, colocando em prática os estudos de flex-box e responsividade." fundo="./assets/projetos_tumb/projeto5.png" sitelink="https://giansb.github.io/react-site-oculos2/" replink="https://github.com/giansb/react-site-oculos2"/>
+                            <ComponenteCard cab="Web React.js" titulo="Ótica vida" desc="Página de uma Ótica, colocando em prática os estudos de flex-box e responsividade." fundo="./assets/projetos_tumb/projeto5.png" sitelink="https://giansb.github.io/react-site-oculos2/" replink="https://github.com/giansb/react-site-oculos2"/>
                             </div>
                             </Carousel>
                             </div>
@@ -80,10 +80,10 @@ export default function PagProjetos(){
                             <div className="carrosel-container">
                             <Carousel responsive={responsive}>
                             <div className="pp-box">
-                            <ComponenteCard cab='Projeto pessoal' titulo='CRUD Pizzaria' desc='CRUD de uma piazzaria, feito em Java utilizando array list. Cria um arquivo txt ao finalizar o pedido como nota fiscal.' fundo="./assets/projetos_tumb/projeto7.jpg" replink="https://github.com/giansb/JavaCrudPizzaria"/>
+                            <ComponenteCard cab='Em desenvolvimento' titulo='CRUD caixa mercado' desc='CRUD de um sistema de caixa de mercado, desenvolvido em Java com interação com banco de dados MySQL.' fundo="./assets/projetos_tumb/projeto8.jpg" replink="https://github.com/giansb/ProjetoCaixaMercado" />
                             </div>
                             <div className="pp-box">
-                            <ComponenteCard cab='' titulo='' desc='' fundo="./assets/projetos_tumb/embreve.jpg" />
+                            <ComponenteCard cab='Java Desktop' titulo='CRUD Pizzaria' desc='CRUD de uma piazzaria, feito em Java utilizando array list. Cria um arquivo txt ao finalizar o pedido como nota fiscal.' fundo="./assets/projetos_tumb/projeto7.jpg" replink="https://github.com/giansb/JavaCrudPizzaria"/>
                             </div>
                             <div className="pp-box">
                             <ComponenteCard cab='' titulo='' desc='' fundo="./assets/projetos_tumb/embreve.jpg" />
