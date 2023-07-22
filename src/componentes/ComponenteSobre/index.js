@@ -25,7 +25,7 @@ export default function ComponenteSobre(){
                             </div>
                             <div className="sobre-inside-list-part">
                                 <h2><span className="blue">Alura</span></h2>
-                                <p>Certificação: HTML, CSS, JavaScript, Git e GitHub.</p>
+                                <p>Certificação: HTML, CSS, JavaScript, Java, Git e GitHub.</p>
                             </div>
                             
                         </div>

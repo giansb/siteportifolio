@@ -25,7 +25,7 @@ export default function ComponenteContato(){
                         </div>
                         <div className="contato-box">
                             <img src="./assets/icons/whatsapp.png"></img>
-                            <a className="link-style" link href="https://wa.me/5551981712896" target="_blank">(51) 9 8171-2896</a>
+                            <a className="link-style" link href="https://wa.me/5551984965313" target="_blank">(51) 9 8496-5313</a>
                         </div>
                     </div>
                     <div className="contato-boxes-2">

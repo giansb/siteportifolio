@@ -80,7 +80,7 @@ export default function PagProjetos(){
                             <div className="carrosel-container">
                             <Carousel responsive={responsive}>
                             <div className="pp-box">
-                            <ComponenteCard cab='Em desenvolvimento' titulo='CRUD caixa mercado' desc='CRUD de um sistema de caixa de mercado, desenvolvido em Java com interação com banco de dados MySQL.' fundo="./assets/projetos_tumb/projeto8.jpg" replink="https://github.com/giansb/ProjetoCaixaMercado" />
+                            <ComponenteCard cab='Java Desktop' titulo='CRUD caixa mercado' desc='CRUD de um sistema de caixa de mercado, desenvolvido em Java com interação com banco de dados MySQL.' fundo="./assets/projetos_tumb/projeto8.jpg" replink="https://github.com/giansb/ProjetoCaixaMercado" />
                             </div>
                             <div className="pp-box">
                             <ComponenteCard cab='Java Desktop' titulo='CRUD Pizzaria' desc='CRUD de uma piazzaria, feito em Java utilizando array list. Cria um arquivo txt ao finalizar o pedido como nota fiscal.' fundo="./assets/projetos_tumb/projeto7.jpg" replink="https://github.com/giansb/JavaCrudPizzaria"/>

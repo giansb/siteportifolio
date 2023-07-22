@@ -108,6 +108,8 @@
     
 }
 
+
+
 @media (max-width: 1060px){
     .banner-all{
         flex-direction: column;
@@ -187,6 +189,10 @@
     .banner-all{
         flex-direction: column;
         padding: 10px 0;
+    }
+    
+    #text{
+        font-size: 22px;
     }
 
     

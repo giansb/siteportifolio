@@ -13,7 +13,7 @@ export default function ComponenteCurriculo(){
                 <div className="s-curriculo-cont">
                     <div className="metade">
                         <img className="metade-image1" src=".\assets\cv.png"></img>
-                        <a className="botao-curriculo" href=".\assets\curriculo.pdf" target="_blank">Acessar curriculo</a>
+                        <a className="botao-curriculo" href="https://drive.google.com/file/d/1rvZnWc_VRKE6tu_DC08uoM4Jtw0QTzGi/view?usp=sharing" target="_blank">Acessar curriculo</a>
                     </div>
                     <div className="metade">
                         
@@ -26,6 +26,7 @@ export default function ComponenteCurriculo(){
                                 <p className="s2 s3">&lt;<span className="pink">li</span>&gt;CSS&lt;/<span className="pink">li</span>&gt;</p>
                                 <p className="s2 s3">&lt;<span className="pink">li</span>&gt;JavaScript&lt;/<span className="pink">li</span>&gt;</p>
                                 <p className="s2 s3">&lt;<span className="pink">li</span>&gt;React.js&lt;/<span className="pink">li</span>&gt;</p>
+                                <p className="s2 s3">&lt;<span className="pink">li</span>&gt;Java&lt;/<span className="pink">li</span>&gt;</p>
                                 <p className="s2 s3">&lt;<span className="pink">li</span>&gt;MySQL&lt;/<span className="pink">li</span>&gt;</p>
                                 <p className="s2">&lt;/<span className="pink">ul</span>&gt;</p>
                                 <p>&lt;/<span className="pink">div</span>&gt;</p>
