@@ -112,10 +112,10 @@ export default function PagProjetos(){
                             <ComponenteCardType2 cab='Em desenvolvimento' titulo='Senac Tech VR' desc='Passeio virtual Senac, sendo desenvolvido em equipe na Unity para óculos VR. Modelagem feita no Blender.' fundo="./assets/projetos_tumb/projeto9.png" replink="https://github.com/giansb/ModelagemVRSenacTech"/>
                             </div>
                             <div className="pp-box">
-                            <ComponenteCardType2 cab='' titulo='' desc='' fundo="./assets/projetos_tumb/embreve.jpg" />
+                            <ComponenteCardType2 cab='Blender' titulo='Setup' desc='Modelagem de um setup, feito no Blender como trabalho final do curso "Introdução ao Blender", da UNHIDE.' fundo="./assets/projetos_tumb/projeto10.png" replink="https://github.com/giansb/ModelagemSetupBlender"/>
                             </div>
                             <div className="pp-box">
-                            <ComponenteCardType2 cab='' titulo='' desc='' fundo="./assets/projetos_tumb/embreve.jpg" />
+                            <ComponenteCardType2 cab='Em desenvolvimento' titulo='CCMQ' desc='Modelagem Casa de Cultura Mario Quintana feita no Blender. Estudo de modelagem modular.' fundo="./assets/projetos_tumb/projeto11.png" replink="https://github.com/giansb/ModelagemCCMQBlender"/>
                             </div>
                             <div className="pp-box">
                             <ComponenteCardType2 cab='' titulo='' desc='' fundo="./assets/projetos_tumb/embreve.jpg" />
