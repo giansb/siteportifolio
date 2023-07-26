@@ -109,7 +109,7 @@ export default function PagProjetos(){
                             <div className="carrosel-container">
                             <Carousel responsive={responsive}>
                             <div className="pp-box">
-                            <ComponenteCardType2 cab='Em desenvolvimento' titulo='Senac Tech VR' desc='passeio virtual pelo prédio do Senac, sendo desenvolvido em equipe na Unity para óculos VR. Modelagem feita no Blender.' fundo="./assets/projetos_tumb/projeto9.png" replink="https://github.com/giansb/ModelagemVRSenacTech"/>
+                            <ComponenteCardType2 cab='Em desenvolvimento' titulo='Senac Tech VR' desc='Passeio virtual Senac, sendo desenvolvido em equipe na Unity para óculos VR. Modelagem feita no Blender.' fundo="./assets/projetos_tumb/projeto9.png" replink="https://github.com/giansb/ModelagemVRSenacTech"/>
                             </div>
                             <div className="pp-box">
                             <ComponenteCardType2 cab='' titulo='' desc='' fundo="./assets/projetos_tumb/embreve.jpg" />

@@ -35,7 +35,7 @@ export default function ComponenteContato(){
                         </div>
                         <a className="contato-box-2" link href="" target="_blank">
                             <img src="./assets/icons/gmail.png"></img>
-                            <p>gianbraga1802@gmail</p>
+                            <p>gianbraga1802@</p>
                         </a>
 
                         <a className="contato-box-2" href="https://br.linkedin.com/in/gian-carlo-braga-165a63242" target="_blank">
