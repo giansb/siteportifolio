@@ -107,7 +107,7 @@
 
 
 .c-card-link {
-    width: auto;
+    width: 100%;
     padding: 0 10px;
     margin: 0 10px;
     background-color: rgb(98, 98, 98);
@@ -122,17 +122,13 @@
     transition: 500ms;
 }
 
-.site-link{
-    width: 30%;
-}
+
 
 .rep-link{
-    width: 55%;
+    width: 100%;
 }
 
-.c-card-link:hover{
-    background-color: rgb(255, 43, 43);
-}
+
 
 .c-card-link p{
     margin-left: 10px;

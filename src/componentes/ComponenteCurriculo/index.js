@@ -13,7 +13,7 @@ export default function ComponenteCurriculo(){
                 <div className="s-curriculo-cont">
                     <div className="metade">
                         <img className="metade-image1" src=".\assets\cv.png"></img>
-                        <a className="botao-curriculo" href="https://drive.google.com/file/d/1rvZnWc_VRKE6tu_DC08uoM4Jtw0QTzGi/view?usp=sharing" target="_blank">Acessar curriculo</a>
+                        <a className="botao-curriculo" href="https://drive.google.com/file/d/11Lu_RdcVs0AHxFENcHz0tnag8OM6KVBk/view?usp=sharing" target="_blank">Acessar curriculo</a>
                     </div>
                     <div className="metade">
                         

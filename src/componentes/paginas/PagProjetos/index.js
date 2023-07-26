@@ -4,6 +4,7 @@ import './style.css'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import ComponenteCard from "../../ComponenteCard";
+import ComponenteCardType2 from "../../ComponenteCardType2";
 
 
 export default function PagProjetos(){
@@ -80,19 +81,47 @@ export default function PagProjetos(){
                             <div className="carrosel-container">
                             <Carousel responsive={responsive}>
                             <div className="pp-box">
-                            <ComponenteCard cab='Java Desktop' titulo='CRUD caixa mercado' desc='CRUD de um sistema de caixa de mercado, desenvolvido em Java com interação com banco de dados MySQL.' fundo="./assets/projetos_tumb/projeto8.jpg" replink="https://github.com/giansb/ProjetoCaixaMercado" />
+                            <ComponenteCardType2 cab='Java Desktop' titulo='CRUD caixa mercado' desc='CRUD de um sistema de caixa de mercado, desenvolvido em Java com interação com banco de dados MySQL.' fundo="./assets/projetos_tumb/projeto8.jpg" replink="https://github.com/giansb/ProjetoCaixaMercado" />
                             </div>
                             <div className="pp-box">
-                            <ComponenteCard cab='Java Desktop' titulo='CRUD Pizzaria' desc='CRUD de uma piazzaria, feito em Java utilizando array list. Cria um arquivo txt ao finalizar o pedido como nota fiscal.' fundo="./assets/projetos_tumb/projeto7.jpg" replink="https://github.com/giansb/JavaCrudPizzaria"/>
+                            <ComponenteCardType2 cab='Java Desktop' titulo='CRUD Pizzaria' desc='CRUD de uma piazzaria, feito em Java utilizando array list. Cria um arquivo txt ao finalizar o pedido como nota fiscal.' fundo="./assets/projetos_tumb/projeto7.jpg" replink="https://github.com/giansb/JavaCrudPizzaria"/>
                             </div>
                             <div className="pp-box">
-                            <ComponenteCard cab='' titulo='' desc='' fundo="./assets/projetos_tumb/embreve.jpg" />
+                            <ComponenteCardType2 cab='' titulo='' desc='' fundo="./assets/projetos_tumb/embreve.jpg" />
                             </div>
                             <div className="pp-box">
-                            <ComponenteCard cab='' titulo='' desc='' fundo="./assets/projetos_tumb/embreve.jpg" />
+                            <ComponenteCardType2 cab='' titulo='' desc='' fundo="./assets/projetos_tumb/embreve.jpg" />
                             </div>
                             <div className="pp-box">
-                            <ComponenteCard cab='' titulo='' desc='' fundo="./assets/projetos_tumb/embreve.jpg" />
+                            <ComponenteCardType2 cab='' titulo='' desc='' fundo="./assets/projetos_tumb/embreve.jpg" />
+                            </div>
+                            </Carousel>
+                            </div>
+                        </div>
+
+                        <div className="secao-projetos ">
+
+                            <div className="secao-topo limita-secao">
+                                <h2>Outros</h2>
+                                <p>Blender, Unity, Unreal Engine, entre outros.</p>
+                            </div>
+
+                            <div className="carrosel-container">
+                            <Carousel responsive={responsive}>
+                            <div className="pp-box">
+                            <ComponenteCardType2 cab='Em desenvolvimento' titulo='Senac Tech VR' desc='passeio virtual pelo prédio do Senac, sendo desenvolvido em equipe na Unity para óculos VR. Modelagem feita no Blender.' fundo="./assets/projetos_tumb/projeto9.png" replink="https://github.com/giansb/ModelagemVRSenacTech"/>
+                            </div>
+                            <div className="pp-box">
+                            <ComponenteCardType2 cab='' titulo='' desc='' fundo="./assets/projetos_tumb/embreve.jpg" />
+                            </div>
+                            <div className="pp-box">
+                            <ComponenteCardType2 cab='' titulo='' desc='' fundo="./assets/projetos_tumb/embreve.jpg" />
+                            </div>
+                            <div className="pp-box">
+                            <ComponenteCardType2 cab='' titulo='' desc='' fundo="./assets/projetos_tumb/embreve.jpg" />
+                            </div>
+                            <div className="pp-box">
+                            <ComponenteCardType2 cab='' titulo='' desc='' fundo="./assets/projetos_tumb/embreve.jpg" />
                             </div>
                             </Carousel>
                             </div>

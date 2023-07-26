@@ -1,7 +1,7 @@
 import React from "react";
 import './style.css'
 
-export default function ComponenteCard(props){
+export default function ComponenteCardType2(props){
     return(
         <div className="c-card" style={
             {backgroundImage: `url(${props.fundo})`}
@@ -19,11 +19,8 @@ export default function ComponenteCard(props){
                 <div className="test">
                 <div className="c-card-links">
                     
-                    <a className="c-card-link site-link" href={props.sitelink} target="_blank">
-                        <img src=".\assets\icons\web-w.png"></img>
-                        <p>Site</p>
-                    </a>
-                    <a className="c-card-link rep-link" href={props.replink} target="_blank">
+                    
+                    <a className="c-card-link rep-link-2" href={props.replink} target="_blank">
                         <img src=".\assets\icons\code-w.png"></img>
                         <p>Repositorio</p>
                     </a>
