@@ -51,6 +51,9 @@ export default function PagProjetos(){
                             <div className="carrosel-container">
                             <Carousel responsive={responsive}>
                             <div className="pp-box">
+                            <ComponenteCard cab='Web JavaScript' titulo='Calculadora Web' desc='Calculadora, feita para rever alguns conceitos de DOM. Foi feita em html,css e Javavscript.' fundo="./assets/projetos_tumb/projeto12.png" sitelink="https://giansb.github.io/CalculadoraWeb/" replink="https://github.com/giansb/CalculadoraWeb"/>
+                            </div>
+                            <div className="pp-box">
                             <ComponenteCard cab='Web React.js' titulo='Agência de design' desc='Pagina de uma agência de design, colocando em prática o conhecimento de variáveis de estado.' fundo="./assets/projetos_tumb/projeto1.png" sitelink="https://giansb.github.io/react-site-design/" replink="https://github.com/giansb/react-site-design"/>
                             </div>
                             <div className="pp-box">

@@ -11,7 +11,7 @@ export default function ComponenteSobre(){
                     <div className="sobre-inside">
                         <div className="sobre-inside-text">
                         <h2>Sobre mim</h2>
-                        <p>Faço Técnico em Desenvolvimento de Sistemas e atualmente estudo Java com interface gráfica com banco de dados, também participo do programa <a className="link-nova-geracao" link href="https://institutocaldeira.org.br/programas/nova-geracao/" target="_blank"><span className="green">Nova geração</span></a>, onde estudo front-end(JavaScript, html, css). Tenho modelagem 3D como hobby.</p>
+                        <p>Faço Técnico em Desenvolvimento de Sistemas e atualmente estudo Java com interface gráfica com banco de dados. Tenho conhecimento em desenvolvimento web com React e back-end com Java. Também tenho modelagem 3D como hobby.</p>
                         </div>
                         <div className="sobre-inside-list">
                             <div className="sobre-inside-list-part">  
