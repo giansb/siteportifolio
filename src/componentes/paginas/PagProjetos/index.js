@@ -51,6 +51,9 @@ export default function PagProjetos(){
                             <div className="carrosel-container">
                             <Carousel responsive={responsive}>
                             <div className="pp-box">
+                            <ComponenteCardType2 cab='Web PHP' titulo='Help Desk' desc='Site Gerenciador de chamados suporte de T.i, com sistema de autenticação de login. Feito em PHP com Boostrap.' fundo="./assets/projetos_tumb/projeto13.png" replink="https://github.com/giansb/SiteChamadosInformatica"/>
+                            </div>
+                            <div className="pp-box">
                             <ComponenteCard cab='Web JavaScript' titulo='Calculadora Web' desc='Calculadora, feita para rever alguns conceitos de DOM. Foi feita em html,css e Javavscript.' fundo="./assets/projetos_tumb/projeto12.png" sitelink="https://giansb.github.io/CalculadoraWeb/" replink="https://github.com/giansb/CalculadoraWeb"/>
                             </div>
                             <div className="pp-box">

@@ -15,8 +15,9 @@ export default function ComponenteProjetos(){
                 </div>
                 <div className="projetos-boxes">
                 <div className="projeto-box p-box" ><ComponenteCardType2 cab='Em desenvolvimento' titulo='Senac Tech VR' desc='Passeio virtual Senac, sendo desenvolvido em equipe na Unity para óculos VR. Modelagem feita no Blender.' fundo="./assets/projetos_tumb/projeto9.png" replink="https://github.com/giansb/ModelagemVRSenacTech" /></div>
+                <div className="projeto-box p-box"><ComponenteCardType2 cab='Web PHP' titulo='Help Desk' desc='Site Gerenciador de chamados suporte de T.i, com sistema de autenticação de login. Feito em PHP com Boostrap.' fundo="./assets/projetos_tumb/projeto13.png" replink="https://github.com/giansb/SiteChamadosInformatica"/></div>
                 <div className="projeto-box p-box"><ComponenteCardType2 cab='Java Desktop' titulo='CRUD caixa mercado' desc='CRUD de um sistema de caixa de mercado, desenvolvido em Java com interação com banco de dados MySQL.' fundo="./assets/projetos_tumb/projeto8.jpg" replink="https://github.com/giansb/ProjetoCaixaMercado"/></div>
-                    <div className="projeto-box p-box"><ComponenteCard cab='Web JavaScript' titulo='Calculadora Web' desc='Calculadora, feita para rever alguns conceitos de DOM. Foi feita em html,css e Javavscript.' fundo="./assets/projetos_tumb/projeto12.png" sitelink="https://giansb.github.io/CalculadoraWeb/" replink="https://github.com/giansb/CalculadoraWeb"/></div>
+                    
                     
                     <div className="projeto-box more">
                         
