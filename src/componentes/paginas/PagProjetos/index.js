@@ -47,9 +47,12 @@ export default function PagProjetos(){
                                 <h2>Web</h2>
                                 <p>Projetos Web, desenvolvidos com HTML, CSS, JavaScript e React.js.</p>
                             </div>
-
+                                
                             <div className="carrosel-container">
                             <Carousel responsive={responsive}>
+                            <div className="pp-box">
+                            <ComponenteCardType2 cab='web PHP' titulo='Enviar E-mail' desc='Site feito com PHP para envio de e-mail, utilizando a biblioteca PHPMailer e SMTP do Gmail. Configurando segurança do back-end. ' fundo="./assets/projetos_tumb/projeto14.png" replink="https://github.com/giansb/EnvioEmailPHP"/>
+                            </div>
                             <div className="pp-box">
                             <ComponenteCardType2 cab='Web PHP' titulo='Help Desk' desc='Site Gerenciador de chamados suporte de T.i, com sistema de autenticação de login. Feito em PHP com Boostrap.' fundo="./assets/projetos_tumb/projeto13.png" replink="https://github.com/giansb/SiteChamadosInformatica"/>
                             </div>
