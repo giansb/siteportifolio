@@ -14,8 +14,8 @@ export default function ComponenteProjetos(){
                 <p>Alguns dos meus principais projetos</p>
                 </div>
                 <div className="projetos-boxes">
-                <div className="projeto-box p-box" ><ComponenteCardType2 cab='Em desenvolvimento' titulo='Senac Tech VR' desc='Passeio virtual Senac, sendo desenvolvido em equipe na Unity para óculos VR. Modelagem feita no Blender.' fundo="./assets/projetos_tumb/projeto9.png" replink="https://github.com/giansb/ModelagemVRSenacTech" /></div>
-                <div className="projeto-box p-box"><ComponenteCardType2 cab='web PHP' titulo='Enviar E-mail' desc='Site feito com PHP para envio de e-mail, utilizando a biblioteca PHPMailer e SMTP do Gmail. Configurando segurança do back-end. ' fundo="./assets/projetos_tumb/projeto14.png" replink="https://github.com/giansb/EnvioEmailPHP"/></div>
+                <div className="projeto-box p-box" ><ComponenteCardType2 cab='Em desenvolvimento' titulo='Senac Tech VR' desc='Passeio virtual Senac, sendo desenvolvido em equipe na Unity para óculos VR. Modelagem feita no Blender.' fundo="./assets/projetos_tumb/projeto92.png" replink="https://github.com/giansb/ModelagemVRSenacTech" /></div>
+                <div className="projeto-box p-box"><ComponenteCardType2 cab='Java Swing' titulo='CRUD caixa mercado V2' desc='Segunda versão do CRUD de caixa de mercado. Desenvolvido seguindo o padrão MVC com interação de banco MySQL. ' fundo="./assets/projetos_tumb/projeto16.png" replink="https://github.com/giansb/ProjetoCaixaMercadoV2" /></div>
                 <div className="projeto-box p-box"><ComponenteCardType2 cab='Web PHP' titulo='Help Desk' desc='Site Gerenciador de chamados suporte de T.i, com sistema de autenticação de login. Feito em PHP com Boostrap.' fundo="./assets/projetos_tumb/projeto13.png" replink="https://github.com/giansb/SiteChamadosInformatica"/></div>
                     
                     

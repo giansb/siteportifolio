@@ -51,6 +51,9 @@ export default function PagProjetos(){
                             <div className="carrosel-container">
                             <Carousel responsive={responsive}>
                             <div className="pp-box">
+                            <ComponenteCardType2 cab='web JavaScript' titulo='Encontrar endereço' desc='Site desenvolvido para consultar endereço baseado no CEP informado. Consumindo a API da viacep.com.br ' fundo="./assets/projetos_tumb/projeto15.png" replink="https://github.com/giansb/BuscarCep"/>
+                            </div>
+                            <div className="pp-box">
                             <ComponenteCardType2 cab='web PHP' titulo='Enviar E-mail' desc='Site feito com PHP para envio de e-mail, utilizando a biblioteca PHPMailer e SMTP do Gmail. Configurando segurança do back-end. ' fundo="./assets/projetos_tumb/projeto14.png" replink="https://github.com/giansb/EnvioEmailPHP"/>
                             </div>
                             <div className="pp-box">
@@ -90,10 +93,13 @@ export default function PagProjetos(){
                             <div className="carrosel-container">
                             <Carousel responsive={responsive}>
                             <div className="pp-box">
-                            <ComponenteCardType2 cab='Java Desktop' titulo='CRUD caixa mercado' desc='CRUD de um sistema de caixa de mercado, desenvolvido em Java com interação com banco de dados MySQL.' fundo="./assets/projetos_tumb/projeto8.jpg" replink="https://github.com/giansb/ProjetoCaixaMercado" />
+                            <ComponenteCardType2 cab='Java Swing' titulo='CRUD caixa mercado V2' desc='Segunda versão do CRUD de caixa de mercado. Desenvolvido seguindo o padrão MVC com interação de banco MySQL. ' fundo="./assets/projetos_tumb/projeto16.png" replink="https://github.com/giansb/ProjetoCaixaMercadoV2" />
                             </div>
                             <div className="pp-box">
-                            <ComponenteCardType2 cab='Java Desktop' titulo='CRUD Pizzaria' desc='CRUD de uma piazzaria, feito em Java utilizando array list. Cria um arquivo txt ao finalizar o pedido como nota fiscal.' fundo="./assets/projetos_tumb/projeto7.jpg" replink="https://github.com/giansb/JavaCrudPizzaria"/>
+                            <ComponenteCardType2 cab='Java Swing' titulo='CRUD caixa mercado' desc='CRUD de um sistema de caixa de mercado, desenvolvido em Java com interação com banco de dados MySQL.' fundo="./assets/projetos_tumb/projeto8.jpg" replink="https://github.com/giansb/ProjetoCaixaMercado" />
+                            </div>
+                            <div className="pp-box">
+                            <ComponenteCardType2 cab='Java Swing' titulo='CRUD Pizzaria' desc='CRUD de uma piazzaria, feito em Java utilizando array list. Cria um arquivo txt ao finalizar o pedido como nota fiscal.' fundo="./assets/projetos_tumb/projeto7.jpg" replink="https://github.com/giansb/JavaCrudPizzaria"/>
                             </div>
                             <div className="pp-box">
                             <ComponenteCardType2 cab='' titulo='' desc='' fundo="./assets/projetos_tumb/embreve.jpg" />
@@ -118,7 +124,7 @@ export default function PagProjetos(){
                             <div className="carrosel-container">
                             <Carousel responsive={responsive}>
                             <div className="pp-box">
-                            <ComponenteCardType2 cab='Em desenvolvimento' titulo='Senac Tech VR' desc='Passeio virtual Senac, sendo desenvolvido em equipe na Unity para óculos VR. Modelagem feita no Blender.' fundo="./assets/projetos_tumb/projeto9.png" replink="https://github.com/giansb/ModelagemVRSenacTech"/>
+                            <ComponenteCardType2 cab='Em desenvolvimento' titulo='Senac Tech VR' desc='Passeio virtual Senac, sendo desenvolvido em equipe na Unity para óculos VR. Modelagem feita no Blender.' fundo="./assets/projetos_tumb/projeto92.png" replink="https://github.com/giansb/ModelagemVRSenacTech"/>
                             </div>
                             <div className="pp-box">
                             <ComponenteCardType2 cab='Blender' titulo='Setup' desc='Modelagem de um setup, feito no Blender como trabalho final do curso "Introdução ao Blender", da UNHIDE.' fundo="./assets/projetos_tumb/projeto10.png" replink="https://github.com/giansb/ModelagemSetupBlender"/>

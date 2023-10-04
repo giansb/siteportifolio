@@ -1,6 +1,6 @@
 {
   "name": "portifolio",
-  "homepage": "https://giansb.github.io/siteportifolio",
+  
   "version": "0.1.0",
   "private": true,
   "dependencies": {
