@@ -51,7 +51,10 @@ export default function PagProjetos(){
                             <div className="carrosel-container">
                             <Carousel responsive={responsive}>
                             <div className="pp-box">
-                            <ComponenteCardType2 cab='web JavaScript' titulo='Encontrar endereço' desc='Site desenvolvido para consultar endereço baseado no CEP informado. Consumindo a API da viacep.com.br ' fundo="./assets/projetos_tumb/projeto15.png" replink="https://github.com/giansb/BuscarCep"/>
+                            <ComponenteCardType2 cab='web PHP' titulo='Cadastrar usuários' desc='Sistema Web para cadastrar, editar e excluir usuários. Feito em PHP com banco de dados MySQL.' fundo="./assets/projetos_tumb/projeto17.png" replink="https://github.com/giansb/CadastroUsuariosPHP"/>
+                            </div>
+                            <div className="pp-box">
+                            <ComponenteCardType2 cab='web JavaScript' titulo='Encontrar endereço' desc='Site desenvolvido para consultar endereço baseado no CEP informado. Consumindo a API da viacep.com.br.' fundo="./assets/projetos_tumb/projeto15.png" replink="https://github.com/giansb/BuscarCep"/>
                             </div>
                             <div className="pp-box">
                             <ComponenteCardType2 cab='web PHP' titulo='Enviar E-mail' desc='Site feito com PHP para envio de e-mail, utilizando a biblioteca PHPMailer e SMTP do Gmail. Configurando segurança do back-end. ' fundo="./assets/projetos_tumb/projeto14.png" replink="https://github.com/giansb/EnvioEmailPHP"/>

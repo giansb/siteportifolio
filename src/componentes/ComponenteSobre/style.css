@@ -11,12 +11,13 @@
 
 
 .sobre-cont{
-    background-color: rgb(74, 84, 105);
+    background-color: var(--cor-fundo-2);
     padding: 10px 20px;
     border-radius: 10px ;
     color: white;
     width: 100%;
     padding: 40px 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     
 }
 
