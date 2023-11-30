@@ -14,9 +14,10 @@ export default function ComponenteProjetos(){
                 <p>Alguns dos meus principais projetos</p>
                 </div>
                 <div className="projetos-boxes">
+                <div className="projeto-box p-box"><ComponenteCard cab='web React.js' titulo="Pizzaria Freddy's Fazbear" desc="Site feito inspirado na Freddy's Fazbear. Feito em React.js, utiliza Variáveis de estado para o elemento de status e expressões regulares para validar o formulário" fundo="./assets/projetos_tumb/projeto18.png" replink="https://github.com/giansb/FreddyFazbear" sitelink="https://giansb.github.io/FreddyFazbear/"/></div>
                 <div className="projeto-box p-box" ><ComponenteCardType2 cab='Em desenvolvimento' titulo='Senac Tech VR' desc='Passeio virtual Senac, sendo desenvolvido em equipe na Unity para óculos VR. Modelagem feita no Blender.' fundo="./assets/projetos_tumb/projeto92.png" replink="https://github.com/giansb/ModelagemVRSenacTech" /></div>
                 <div className="projeto-box p-box"><ComponenteCardType2 cab='Java Swing' titulo='CRUD caixa mercado V2' desc='Segunda versão do CRUD de caixa de mercado. Desenvolvido seguindo o padrão MVC com interação de banco MySQL. ' fundo="./assets/projetos_tumb/projeto16.png" replink="https://github.com/giansb/ProjetoCaixaMercadoV2" /></div>
-                <div className="projeto-box p-box"><ComponenteCardType2 cab='web PHP' titulo='Cadastrar usuários' desc='Sistema Web para cadastrar, editar e excluir usuários. Feito em PHP com banco de dados MySQL.' fundo="./assets/projetos_tumb/projeto17.png" replink="https://github.com/giansb/CadastroUsuariosPHP"/></div>
+                
                     
                     
                     <div className="projeto-box more">

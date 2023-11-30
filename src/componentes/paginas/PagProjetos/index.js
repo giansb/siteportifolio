@@ -45,11 +45,14 @@ export default function PagProjetos(){
 
                             <div className="secao-topo limita-secao">
                                 <h2>Web</h2>
-                                <p>Projetos Web, desenvolvidos com HTML, CSS, JavaScript e React.js.</p>
+                                <p>Projetos Web com HTML, CSS, JavaScript, React.js e PHP.</p>
                             </div>
                                 
                             <div className="carrosel-container">
                             <Carousel responsive={responsive}>
+                            <div className="pp-box">
+                            <ComponenteCard cab='web React.js' titulo="Pizzaria Freddy's Fazbear" desc="Site feito inspirado na Freddy's Fazbear. Feito em React.js, utiliza Variáveis de estado para o elemento de status e expressões regulares para validar o formulário" fundo="./assets/projetos_tumb/projeto18.png" replink="https://github.com/giansb/FreddyFazbear" sitelink="https://giansb.github.io/FreddyFazbear/"/>
+                            </div>
                             <div className="pp-box">
                             <ComponenteCardType2 cab='web PHP' titulo='Cadastrar usuários' desc='Sistema Web para cadastrar, editar e excluir usuários. Feito em PHP com banco de dados MySQL.' fundo="./assets/projetos_tumb/projeto17.png" replink="https://github.com/giansb/CadastroUsuariosPHP"/>
                             </div>

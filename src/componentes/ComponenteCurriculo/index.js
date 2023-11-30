@@ -120,7 +120,7 @@ document.getElementById('metade').addEventListener("mouseleave", () => {
                 <div className="s-curriculo-cont"id="metade">
                     <div className="metade">
                         <img className="metade-image1" src=".\assets\cv.png"></img>
-                        <a className="botao-curriculo" href="https://drive.google.com/file/d/1DxC_KVKbXFNZkIagNjeuvNU2zV6-PzY2/view?usp=sharing" target="_blank">Acessar curriculo</a>
+                        <a className="botao-curriculo" href="https://drive.google.com/file/d/11v3YDuYeYPC94rHeyWCLGAfSR_wZ4NuZ/view?usp=sharing" target="_blank">Acessar curriculo</a>
                     </div>
                     <div className="metade" id="metade2">
                         
