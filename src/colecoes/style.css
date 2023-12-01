@@ -1,0 +1,34 @@
+.pp-box{
+    height: 400px;
+    width: 300px;
+    position: relative;
+    transition: 800ms;
+    bottom: 0;
+    margin: 20px auto;
+}
+
+.pp-box:hover{
+    bottom: 10px;
+}
+
+@media(max-width:1000px){
+    .pp-box{
+        width: 300px;
+        margin: 20px auto;
+    }
+
+    .pp-box:hover{
+        bottom: unset;
+    }
+}
+
+@media(max-width:680px){
+  .pp-box{
+    height: 400px;
+    width: 90%;
+    position: relative;
+    transition: 800ms;
+    bottom: 0;
+    margin: 20px auto;
+}
+}

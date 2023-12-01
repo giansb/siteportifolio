@@ -3,6 +3,7 @@ import './style.css'
 import ComponenteCard from "../ComponenteCard";
 import { HashLink } from "react-router-hash-link";
 import ComponenteCardType2 from "../ComponenteCardType2";
+import { projetosDestaque } from "../../colecoes/colecoes";
 
 
 export default function ComponenteProjetos(){
@@ -14,9 +15,19 @@ export default function ComponenteProjetos(){
                 <p>Alguns dos meus principais projetos</p>
                 </div>
                 <div className="projetos-boxes">
-                <div className="projeto-box p-box"><ComponenteCard cab='web React.js' titulo="Pizzaria Freddy's Fazbear" desc="Site feito inspirado na Freddy's Fazbear. Feito em React.js, utiliza Variáveis de estado para o elemento de status e expressões regulares para validar o formulário" fundo="./assets/projetos_tumb/projeto18.png" replink="https://github.com/giansb/FreddyFazbear" sitelink="https://giansb.github.io/FreddyFazbear/"/></div>
-                <div className="projeto-box p-box" ><ComponenteCardType2 cab='Em desenvolvimento' titulo='Senac Tech VR' desc='Passeio virtual Senac, sendo desenvolvido em equipe na Unity para óculos VR. Modelagem feita no Blender.' fundo="./assets/projetos_tumb/projeto92.png" replink="https://github.com/giansb/ModelagemVRSenacTech" /></div>
-                <div className="projeto-box p-box"><ComponenteCardType2 cab='Java Swing' titulo='CRUD caixa mercado V2' desc='Segunda versão do CRUD de caixa de mercado. Desenvolvido seguindo o padrão MVC com interação de banco MySQL. ' fundo="./assets/projetos_tumb/projeto16.png" replink="https://github.com/giansb/ProjetoCaixaMercadoV2" /></div>
+                    {
+                        projetosDestaque.map((card) => {
+                            if(card.sitelink == ""){
+                                return(
+                                    <div className="projeto-box p-box"><ComponenteCardType2 titulo={card.titulo} cab ={card.cab} desc={card.desc} replink={card.replink} fundo={card.image}/></div>
+                                );
+                            } else {
+                                return(
+                                    <div className="projeto-box p-box"><ComponenteCard titulo={card.titulo} cab={card.cab} desc={card.desc} replink={card.replink} sitelink={card.sitelink} fundo={card.image}/></div>
+                                );
+                            }
+                        })
+                    }
                 
                     
                     
