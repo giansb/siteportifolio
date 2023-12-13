@@ -4,11 +4,11 @@ import './style.css';
 export const projetosDestaque =[
     {
         cab : "web React.js",
-        titulo: "Pizzaria Freddy's Fazbear",
-        replink: "https://github.com/giansb/FreddyFazbear",
-        sitelink:"https://giansb.github.io/FreddyFazbear/",
-        image: "./assets/projetos_tumb/projeto18.png",
-        desc:"Site feito inspirado na Freddy's Fazbear. Feito em React.js, utiliza Variáveis de estado para o elemento de status e expressões regulares para validar o formulário."
+        titulo: "Lista de jogos",
+        replink: "https://github.com/giansb/ListaDeJogos",
+        sitelink:"https://giansb.github.io/ListaDeJogos/",
+        image: "./assets/projetos_tumb/projeto19.png",
+        desc:"Site React.js com uma lista de jogos de 3 plataformas. Estudo de componenentes dinâmicos e consumo de coleções de objetos. "
     },
 
     {
@@ -21,18 +21,27 @@ export const projetosDestaque =[
     },
 
     {
-        cab : "web PHP",
-        titulo: "Cadastrar usuários",
-        replink: "https://github.com/giansb/CadastroUsuariosPHP",
+        cab : "Java Swing",
+        titulo: "CRUD caixa mercado V2",
+        replink: "https://github.com/giansb/ProjetoCaixaMercadoV2",
         sitelink:"",
-        image: "./assets/projetos_tumb/projeto17.png",
-        desc:"Sistema Web para cadastrar, editar e excluir usuários. Feito em PHP com banco de dados MySQL."
+        image: "./assets/projetos_tumb/projeto16.png",
+        desc:"Segunda versão do CRUD de caixa de mercado. Desenvolvido seguindo o padrão MVC com interação de banco MySQL."
     },
 
 
 ];
 
 export const ProjetosWeb =[
+    {
+        cab : "web React.js",
+        titulo: "Lista de jogos",
+        replink: "https://github.com/giansb/ListaDeJogos",
+        sitelink:"https://giansb.github.io/ListaDeJogos/",
+        image: "./assets/projetos_tumb/projeto19.png",
+        desc:"Site React.js com uma lista de jogos de 3 plataformas. Estudo de componenentes dinâmicos e consumo de coleções de objetos. "
+    },
+
     {
         cab : "web React.js",
         titulo: "Pizzaria Freddy's Fazbear",
