@@ -4,11 +4,11 @@ import './style.css';
 export const projetosDestaque =[
     {
         cab : "web React.js",
-        titulo: "Lista de jogos",
-        replink: "https://github.com/giansb/ListaDeJogos",
-        sitelink:"https://giansb.github.io/ListaDeJogos/",
-        image: "./assets/projetos_tumb/projeto19.png",
-        desc:"Site React.js com uma lista de jogos de 3 plataformas. Estudo de componenentes dinâmicos e consumo de coleções de objetos. "
+        titulo: "Restaurant",
+        replink: "https://github.com/giansb/WebReactRestaurant",
+        sitelink:"https://giansb.github.io/WebReactRestaurant/",
+        image: "./assets/projetos_tumb/projeto20.png",
+        desc:"Site feito em React.js de um restaurante. Desenvolvido para estudo de coleções de dados, junto aos componentes dinâmicos. Responsivo."
     },
 
     {
@@ -33,6 +33,14 @@ export const projetosDestaque =[
 ];
 
 export const ProjetosWeb =[
+    {
+        cab : "web React.js",
+        titulo: "Restaurant",
+        replink: "https://github.com/giansb/WebReactRestaurant",
+        sitelink:"https://giansb.github.io/WebReactRestaurant/",
+        image: "./assets/projetos_tumb/projeto20.png",
+        desc:"Site feito em React.js de um restaurante. Desenvolvido para estudo de coleções de dados, junto aos componentes dinâmicos. Responsivo."
+    },
     {
         cab : "web React.js",
         titulo: "Lista de jogos",
