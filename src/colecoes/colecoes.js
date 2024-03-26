@@ -3,12 +3,12 @@ import './style.css';
 
 export const projetosDestaque =[
     {
-        cab : "web React.js",
-        titulo: "Restaurant",
-        replink: "https://github.com/giansb/WebReactRestaurant",
-        sitelink:"https://giansb.github.io/WebReactRestaurant/",
-        image: "./assets/projetos_tumb/projeto20.png",
-        desc:"Site feito em React.js de um restaurante. Desenvolvido para estudo de coleções de dados, junto aos componentes dinâmicos. Responsivo."
+        cab : "Web PHP",
+        titulo: "Cadastro Dev",
+        replink: "https://github.com/giansb/cadastro-dev",
+        sitelink:"",
+        image: "./assets/projetos_tumb/projeto23.png",
+        desc:"Aplicação web feita em PHP com banco MySQL, seguindo os padrões MVC. CRUD de cadastro Dev, gerenciador de desenvolvedores"
     },
 
     {
@@ -34,6 +34,33 @@ export const projetosDestaque =[
 
 export const ProjetosWeb =[
     {
+        cab : "Web PHP",
+        titulo: "Cadastro Dev",
+        replink: "https://github.com/giansb/cadastro-dev",
+        sitelink:"",
+        image: "./assets/projetos_tumb/projeto23.png",
+        desc:"Aplicação web feita em PHP com banco MySQL, seguindo os padrões MVC. CRUD de cadastro Dev, gerenciador de desenvolvedores"
+    },
+
+    {
+        cab : "Web React.js",
+        titulo: "Pokédex",
+        replink: "https://github.com/giansb/pokedex-vortigo",
+        sitelink:"https://giansb.github.io/pokedex-vortigo/",
+        image: "./assets/projetos_tumb/projeto22.png",
+        desc:"Aplicação Web em React.js, feita em dupla. Pokédex que consome um json como biblioteca dos pokemons. Projeto de estágio."
+    },
+
+    {
+        cab : "Web React.js",
+        titulo: "Jojo Quiz",
+        replink: "https://github.com/Guilherme-S-S-F/Desafio_Jojo",
+        sitelink:"https://guilherme-s-s-f.github.io/Desafio_Jojo/",
+        image: "./assets/projetos_tumb/projeto21.png",
+        desc:"Aplicação web de um quiz, tematico do anime Jojo feito em dupla. Estudo de useState e rotas. Projeto de estágio"
+    },
+
+    {
         cab : "web React.js",
         titulo: "Restaurant",
         replink: "https://github.com/giansb/WebReactRestaurant",
@@ -51,7 +78,7 @@ export const ProjetosWeb =[
     },
 
     {
-        cab : "web React.js",
+        cab : "Web React.js",
         titulo: "Pizzaria Freddy's Fazbear",
         replink: "https://github.com/giansb/FreddyFazbear",
         sitelink:"https://giansb.github.io/FreddyFazbear/",
@@ -60,7 +87,7 @@ export const ProjetosWeb =[
     },
 
     {
-        cab : "web PHP",
+        cab : "Web PHP",
         titulo: "Cadastrar usuários",
         replink: "https://github.com/giansb/CadastroUsuariosPHP",
         sitelink:"",
@@ -69,7 +96,7 @@ export const ProjetosWeb =[
     },
 
     {
-        cab : "web JavaScript",
+        cab : "Web JavaScript",
         titulo: "Encontrar endereço",
         replink: "https://github.com/giansb/BuscarCep",
         sitelink:"",
